@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
+import PropTypes from "prop-types"
 
-export default function Blogs({ clickMe }) {
+export default function Blogs({ clickMe, handleAddToRead }) {
+  // console.log(handleAddToRead)
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     fetch("people.json")
@@ -12,8 +14,17 @@ export default function Blogs({ clickMe }) {
   return (
     <div className="w-[70%] ">
       {blogs.map((blog) => (
-        <Blog key={blog.id} blog={blog} clickMe={clickMe}></Blog>
+        <Blog
+          key={blog.id}
+          blog={blog}
+          clickMe={clickMe}
+          handleAddToRead={handleAddToRead}></Blog>
       ))}
     </div>
   );
+}
+
+Blogs.propTypes ={
+  clickMe: PropTypes.func,
+  handleAddToRead: PropTypes.func
 }

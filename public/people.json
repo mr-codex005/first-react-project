@@ -6,7 +6,7 @@
     "image":"https://i.postimg.cc/wxCzx1yK/boy1.png",
     "banner": "https://i.postimg.cc/XJ6qysXW/1.jpg",
     "hashtag": ["health", "fitness"],
-    "reading_time": 10,
+    "readingTime": 10,
     "posted_date": "2022-12-15"
   },
   {
@@ -16,7 +16,7 @@
     "image": "https://i.postimg.cc/RV7kMXxf/boy2.jpg",
     "banner": "https://i.postimg.cc/1tSRz4Y5/2.png",
     "hashtag": ["nutrition", "wellness"],
-    "reading_time": 8,
+    "readingTime": 8,
     "posted_date": "2022-12-16"
   },
   {
@@ -26,7 +26,7 @@
     "image": "https://i.postimg.cc/P5K0DJx5/girl1.jpg",
     "banner": "https://i.postimg.cc/wTMqMCFJ/3.png",
     "hashtag": ["stress", "wellbeing"],
-    "reading_time": 12,
+    "readingTime": 12,
     "posted_date": "2022-12-17"
   },
   {
@@ -36,7 +36,7 @@
     "image": "https://i.postimg.cc/YSsVXPQc/girl2.jpg",
     "banner": "https://i.postimg.cc/t4V9tFK4/4.jpg",
     "hashtag": ["mindfulness", "meditation"],
-    "reading_time": 15,
+    "readingTime": 15,
     "posted_date": "2022-12-18"
   }
 ]
